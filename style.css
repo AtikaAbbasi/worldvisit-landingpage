@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    font-family: "Sofadi One", system-ui;
+}
+
+.navbar{
+    font-size: 1.2em;
+    font-weight: bold;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    top: 0;
+    left: 0;
+    right: 0%;
+    z-index: 50;
+}
+
+.left{
+    font-family: "Fascinate Inline", system-ui;
+}
+
+.part1{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-tropical-beach-sea-with-chair-blue-sky_74190-7488.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5em;
+    border-radius: 20px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   padding: 2em;
+   position: relative;
+
+}
+
+
+
+.footcard{
+    width: 80%;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    bottom: -70px;
+    padding: 2em;
+    
+
+    
+  
+}
+
+
+
+.cardsec1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 2em;
+    width: 100%;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid rgb(159, 158, 158);
+
+
+}
+
+.box{
+    display: flex;
+   
+    flex-wrap: wrap;
+    gap:0  2em ;
+}
+
+.car{
+    height: 70px;
+    min-width: 150px;
+    border-radius: 12px;
+    margin-top: 1em;
+    
+}
+.span1{
+    color: rgb(185, 188, 188);
+}
+.bgh1{
+    background-color: rgb(221, 222, 222);
+    max-width: 150px;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 3px;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.btn1{
+    height: 35px;
+    margin-top: 2.5em;
+    width: 140px;
+    margin-left: 2em;
+}
+
+/* part 22222222222222222222222 */
+.part2{
+    margin-top:6em ;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.lorem{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.rowcard{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.child{
+    min-height: 300px;
+    width: 222px;
+    /* background-color: aqua; */
+}
+
+
+
+.imgsc{
+    width: 100%;
+    height: 188px;
+    border-radius: 18px;
+}
+
+.bgh2{
+    margin-left: 0;
+    background-color: rgb(240, 255, 255);
+    border-radius: 11px;
+}
+
+.part3{
+    /* text-align: center; */
+   padding: 1em;
+}
+
+
+.dynamic{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 2em;
+
+}
+
+.dia{
+    background: url(https://img.freepik.com/free-photo/beautiful-vertical-shot-long-mountain-peak-covered-green-grass-perfect-wallpaper_181624-4986.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    min-height: 500px;
+    width: 35%;
+    margin-top: 3em;
+    border-radius: 18px;
+    padding: 2em;
+    padding-top: 15em;
+    position: relative;
+
+}
+
+
+.boxx{
+    display: inline-block;
+    height: 60px;
+    width: 170px;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    background-color: white;
+    /* margin-left: ; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    left: -3em;
+    display: flex;
+      
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.h6-1{
+    line-height: 10px;
+}
+
+.boxx2{
+  margin-top: 5em;
+}
+
+.boxx3{
+    margin-top: 10em;
+}
+
+.part4{
+    padding: 1em;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.part5{                
+    padding: 1em;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.m-nav{
+    min-height: 70px;
+    width: 100%;
+    background-color: rgb(247, 246, 246);
+    display: flex;
+    flex-wrap: wrap;
+    gap:1em 2em;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+
+.row11{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1em  2em;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+}
+
+.card-b{
+    border: 2px dashed rgb(203, 201, 201);
+}
+
+
+.hund{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 1em 0;
+}
+
+.hun{
+    margin-top: 1em;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+/* .part7{
+background-color: rgb(232, 232, 232);
+width: 100%;
+padding: 2em;
+margin-top: 1em;
+border-radius: 19px; 
+
+} */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(146, 146, 146);
+width: 100%;
+padding: 2em;
+margin-top: 1em;
+border-radius: 19px;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+.fa{
+    font-size: 1.8em;
+    
+}
+
+input{
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* mediaqueries------------------- */
+
+
+@media (max-width:719px){
+    .dia{
+        width: 100%;
+    }
+
+    .boxx{
+        position: static;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width:650px){
+
+    .footcard{
+        position: static;
+    }
+
+    .top-h1{
+        color: white !important;
+    }
+
+    .part2{
+        margin-top: 2em;
+    }
+}
+
+
+@media (max-width:410px){
+
+    .footcard{
+        width: 100%;
+    }
+
+   
+}
+
+@media (max-width:320px){
+    .bgh1{
+        margin-left: 0em;
+    }
+
+    .footcard{
+        padding: 0.7em;
+    }
+
+    .boxx{
+        margin-left: -1em;
+    }
+}
